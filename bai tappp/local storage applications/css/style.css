@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    display:block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    min-height: 100vh;
+    margin: 0;
+   
+    
+}
+.app{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 430px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 3px solid #73ad80;
+
+}
+#addNew{
+    background-color: #73ad80;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #73ad80;
+    width: 370px;
+    height: auto;
+    text-align: left;
+    margin-left: 10px;
+}
+   
+
+.modal-body{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #73ad80;
+    text-align: left;
+
+}
+
+#tasks{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 4px solid #73ad80;
+    text-align: left;
+    width: 370px;
+    height: auto;
+    margin-left: 10px;;
+
+    cursor: pointer;
+}
+
+#tasks div{
+    width: 370px;
+    height: 300px;
+    overflow: visible;
+    width: 340px;
+    max-height: 150px;
+
+}
+
+.options{
+    float: right;
+    clear: both;
+    overflow: hidden;
+    
+}
+.fa-edit,
+.fa-trash-alt{
+    border: none;
+    border-spacing: 5px;
+}
+.modal-body{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#msg{
+    color: red;
+}
+.text-center{
+    text-transform: uppercase;
+    
+    font-size: 35px ;
+    background: -webkit-linear-gradient(#28a745, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    
+}
+
+.btn {
+    border: none;
+    padding: 5px 5px;
+    width: 50px; 
+    background-color: #73ad80;
+    border-bottom: 2px solid #28a745;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: medium;
+    text-align:center;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+
+.btn:hover {
+    background:cadetblue;
+    
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+
+.fw-bold{
+    font-weight: bolder;
+    font-size: medium;
+
+}
+
+
+div i {
+
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+    float: right;
+
+}
+
+.small{
+    font-size: small;
+}
